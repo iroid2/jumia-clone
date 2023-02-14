@@ -1,0 +1,164 @@
+// browser reset
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import"./global-Classes";
+body{
+    width: 100vw;
+    background-color: rgb(255,187,198);
+    .container{
+        width: 100%;
+        .header{
+            width: 100%;
+            .banner{
+                width: 100%;
+                height: 60px;
+                padding: 0 6rem;
+                background-color: rgb(255,153,0);
+                img{
+                    width: 98%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .sell{
+                padding: .4rem 5rem;
+                color: orange;
+                background-color: rgb(245,245,245);
+                .left-sell{
+                    width: 40%;
+                }
+                .right-sell{
+                    width: 60%;
+                    gap: 1rem;
+                    font-weight: bold;
+                    font-size: .8rem;
+                    font-family: 'Noto Sans', sans-serif;
+
+                }
+            }
+            .nav-Bar{
+                width: 100%;
+                background-color: rgb(255,255,255);
+                padding: 1rem 5rem;
+                font-family: 'Noto Sans', sans-serif;
+                font-weight: bold;
+                .logo-sectn{
+                    width: 20%;
+                    // background-color: red;
+                    img{
+                        width: 60%;
+                    }
+                }
+                .search-sectn{
+                    width: 55%;
+                    gap: .5rem;
+                    position: relative;
+                    i{
+                        font-size: 1.5rem;
+                        color: gray;
+                        position: absolute;
+                        left: 2.3rem;
+                    }
+                    input{
+                        width: 80%;
+                        padding: .6rem 3rem;
+                        font-size: 1rem;
+                        border-radius: 5px;
+                        border: 1px solid rgb(167, 165, 165);
+                    }
+                    button{
+                        padding: .8rem 1.3rem;
+                        border-radius: .3rem;
+                        font-weight: bold;
+                        font-size: .8rem;
+                        border: none;
+                        color: white;
+                        background-color: rgb(224,126,27);
+                    }
+                }
+                .acct-sectn{
+                    width: 25%;
+                    gap: .6rem;
+                    color: #3c3b3b;
+                    
+                    .icon{
+                        font-size: 1.55rem;
+                    }
+                    p{
+                        &:hover{
+                            color: rgb(224,126,27);
+                        }
+                    }
+                }
+                .acct,.help,.cart{
+                    &:hover{
+                        color: rgb(224,126,27);
+                    }
+                }
+            }
+        }
+        .main{
+            // background-color: red;
+            .hero-sectn{
+                width: 100%;
+                padding: .7rem 3rem;
+                // background-color:green;
+                gap: .8rem;
+                .side-hero-left{
+                    width: 15%;
+                    background-color:white;
+                    padding: .3rem .7rem;
+                    font-size: .9rem;
+                    flex-direction: column;
+                    border-radius: 3px;
+                    overflow: hidden;
+                }
+                .main-hero{
+                    width: 65%;
+                    background-color: yellowgreen;
+                    border-radius: 5px;
+                    height: 390px;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .side-hero-right{
+                    background-color: rgb(255,187,198);
+                    width: 18%;
+                    border-radius: 3px;
+                    flex-direction: column;
+                    gap: 2.3rem;
+                    .top-side-hero-left{
+                        width: 100%;
+                        height: 40%;
+                        border-radius: 5px;
+                        background-color: white;
+                        font-family: 'Noto Sans', sans-serif;
+                        font-size: 14px;
+                        padding: .7rem;
+                        .help{
+                            gap: 1rem;
+                            img{
+                                width: 30px;
+                            }
+                        }
+                       
+                    }
+                    .botmm-side-hero-left{
+                        width: 100%;
+                        height: 50%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                            object-fit: contain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.flex-space{
+    display: flex;
+    justify-content: space-between;
+}
+.gray-text{
+    color: gray;
+}
+.sm-space{
+    gap: .5rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+// margin top of category
+.m-top{
+    margin-top: .7rem;
+}
